@@ -10,10 +10,10 @@ A full-featured backend application for an E-commerce platform built with **Spri
 - 📘 **Swagger Documentation** – Full OpenAPI support for API testing  
 - ⚠️ **Global Exception Handling** – Unified error response system  
 ## 🛠️ Tech Stack  
-- **Language**: Java 17  
+- **Language**: Java 21
 - **Framework**: Spring Boot  
 - **Security**: Spring Security + JWT  
-- **Database**: MySQL / H2  
+- **Database**: MySQL  
 - **Build Tool**: Maven  
 - **API Docs**: Swagger (OpenAPI)  
 - **ORM**: Spring Data JPA  
@@ -59,8 +59,8 @@ http://localhost:8080/swagger-ui/index.html
 > All secured routes require JWT in `Authorization: Bearer <token>` header.  
 ## 👨‍💻 Author  
 - Developed by: **Your Full Name**  
-- 📫 GitHub: [https://github.com/your-username](https://github.com/your-username)  
-- 🔗 LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
+- 📫 GitHub: [https://github.com/xNhatMinh](https://github.com/xNhatMinh)  
+- 🔗 LinkedIn: [https://www.linkedin.com/in/nh%E1%BA%ADt-minh-34975a245/](https://www.linkedin.com/in/nh%E1%BA%ADt-minh-34975a245/)  
 ## 💡 About This Project  
 - Designed and implemented RESTful APIs for full-stack integration  
 - Applied best practices for authentication, role-based access control, and modular architecture  
