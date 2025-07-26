@@ -4,6 +4,7 @@ import com.buybuy.project.config.AppConstant;
 import com.buybuy.project.payload.CategoryDTO;
 import com.buybuy.project.payload.CategoryResponse;
 import com.buybuy.project.service.CategoryService;
+import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,7 @@ public class CategoryController {
         this.categoryService = categoryService;
     }
 
+    @Operation(summary = "Get categories", description = "API get categories")
     @GetMapping("/public/categories")
     public ResponseEntity<CategoryResponse> getAllCategories(
             @RequestParam(name = "pageNumber", defaultValue = AppConstant.PAGE_NUMBER, required = false) Integer pageNumber,
